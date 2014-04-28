@@ -1,0 +1,35 @@
+package Cliente;
+
+import java.rmi.RemoteException;
+import java.util.Vector;
+
+import Risorsa.IRisorsa;
+
+public class Client implements IClient {
+
+	@Override
+	public String getClientName() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Vector<IRisorsa> getResourceList() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean searchResource(IRisorsa i) throws RemoteException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void upload(IClient v, IRisorsa r, int p) throws RemoteException,
+			Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}
